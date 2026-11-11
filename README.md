@@ -31,7 +31,8 @@ rebuilding the TFT is covered in [`02_display/GUIDA_TFT_EN.md`](02_display/GUIDA
 
 ## Related
 
-- Italian edition: https://github.com/merletti/NanoEls-H5
+- Italian edition (original): https://github.com/merletti/NanoEls-H5
+- Russian edition: https://github.com/merletti/NanoEls-H5-RU
 
 ## License
 

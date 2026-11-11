@@ -34,6 +34,17 @@ rebuilding the TFT is covered in [`02_display/GUIDA_TFT_EN.md`](02_display/GUIDA
 - Italian edition (original): https://github.com/merletti/NanoEls-H5
 - Russian edition: https://github.com/merletti/NanoEls-H5-RU
 
+## Warning
+
+The project is provided **as is, without any warranty**. Whoever builds, modifies
+or uses it takes on every risk and responsibility: the controller drives motors
+and moving parts, so a mistake in wiring, parameters or software can damage the
+machine or cause injury. The bench test on the lathe and the checks of this
+English edition (firmware and display) have not been completed yet, so test
+everything yourself on the machine before using it. Verify the safety devices of
+the lathe, follow local regulations and never leave the machine unattended while
+working.
+
 ## License
 
 MIT — see [`LICENSE`](LICENSE).

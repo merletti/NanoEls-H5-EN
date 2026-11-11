@@ -1,0 +1,177 @@
+NanoEls H5 - Mockup TFT 800x480	NanoEls H5 - TFT mockup 800x480
+MENU	MENU
+MODALITÀ E SERVIZI	MODES AND SERVICES
+Tocca una voce per aprire la pagina dedicata	Tap an item to open its page
+IT 20261030	EN 20261111
+Controllo manuale assi e lavorazione	Manual axis control and machining
+STATO	STATUS
+MODALITÀ	MODE
+INGR.	GEAR
+PRINCIPI	STARTS
+PASSO	PITCH
+MISURA	MEASURE
+POSIZIONE	POSITION
+Pronto - NanoEls	Ready - NanoEls
+Modalità F1 · Gearbox	Mode F1 · Gearbox
+Modalità F2 · Threading	Mode F2 · Threading
+Modalità F3 · Turning	Mode F3 · Turning
+Modalità F4 · Facing	Mode F4 · Facing
+Modalità F5 · Cone	Mode F5 · Cone
+Modalità F6 · Parting	Mode F6 · Parting
+Modalità F7 · Ellipse	Mode F7 · Ellipse
+Modalità F8 · Async	Mode F8 · Async
+Modalità F10 · Y axis	Mode F10 · Y axis
+Modalità F11 · Joy	Mode F11 · Joy
+Modalità F12 · X gearbox	Mode F12 · X gearbox
+Modalità F13 · Grooving	Mode F13 · Grooving
+PITCH · MM PER GIRO	PITCH · MM/REV
+FINE CORSA MAX	TRAVEL LIMIT MAX
+FINE CORSA MIN	TRAVEL LIMIT MIN
+ATTIVA MODALITÀ	START MODE
+ANNULLA	CANCEL
+Sincronizza l'avanzamento dell'asse Z con la rotazione del mandrino.	Synchronizes Z axis feed with spindle rotation.
+Tocca un valore per digitarlo · −/+ per correggere	Tap a value to enter it · −/+ to correct
+INGRANAGGI · F1 · passo 1.500 mm	GEARBOX · F1 · pitch 1.500 mm
+CONO FILETTO	THREAD CONE
+RAPPORTO · 0 = CILINDRICO	RATIO · 0 = CYLINDRICAL
+FINE CORSA Z MAX	STOP Z MAX
+Sincronizza Z con il mandrino per filettare al passo impostato. I principi gestiscono i filetti multipli.	Synchronizes Z with the spindle to cut threads at the set pitch. Starts handle multi-start threads.
+FILETTATURA · F2 · passo 1.750 mm	THREADING · F2 · pitch 1.750 mm
+PASSATE	PASSES
+LATO	SIDE
+ESTERNO	OUTSIDE
+Avanza Z a ogni giro del mandrino ed esegue le passate automatiche sul diametro.	Advances Z on each spindle turn and runs automatic passes on the diameter.
+TORNITURA · F3 · 4 passate	TURNING · F3 · 4 passes
+DIREZIONE	DIRECTION
+FINE CORSA X MAX	STOP X MAX
+Avanza X a ogni giro e ripete le passate sulla faccia del pezzo.	Advances X on each turn and repeats passes on the workpiece face.
+SPIANATURA · F4 · 6 passate	FACING · F4 · 6 passes
+RAPPORTO	RATIO
+CORSA Z	Z TRAVEL
+Sincronizza Z e X per ottenere una conicità costante, esterna o interna.	Synchronizes Z and X for a constant taper, outside or inside.
+CONO · F5 · rapporto 1:19.08	CONE · F5 · ratio 1:19.08
+Avanzamento radiale controllato per troncare il pezzo con passate progressive.	Controlled radial feed to part the workpiece with progressive passes.
+TRONCATURA · F6 · 5 passate	PARTING · F6 · 5 passes
+Combina Z e X per descrivere un profilo ellittico sul pezzo.	Combines Z and X to trace an elliptical profile on the workpiece.
+ELLISSE · F7 · 8 passate	ELLIPSE · F7 · 8 passes
+SENSO	DIR
+Avanzamento temporizzato senza encoder mandrino, per lavorazioni libere.	Timed feed without a spindle encoder, for free machining.
+ASINCRONO · F8 · passo 0.250 mm	ASYNC · F8 · pitch 0.250 mm
+PASSO Y	Y PITCH
+Y PITCH · MM O GRADI/GIRO	Y PITCH · MM OR DEG/REV
+FINE CORSA Y MAX	STOP Y MAX
+Sincronizza l'asse Y opzionale con il mandrino, lineare o rotativo.	Synchronizes the optional Y axis with the spindle, linear or rotary.
+ASSE Y · F10 · passo 0.500 mm	Y AXIS · F10 · pitch 0.500 mm
+VELOCITÀ NORMALE	NORMAL SPEED
+VELOCITÀ RAPIDA	RAPID SPEED
+ZONA MORTA	DEADBAND
+INGRESSI ATTIVI	ACTIVE INPUTS
+giri/s	rev/s
+Jog proporzionale su Z, X e Y con velocità normale e rapida.	Proportional jog on Z, X and Y with normal and rapid speed.
+JOYSTICK · F11 · 1.00 / 8.00 giri/s	JOYSTICK · F11 · 1.00 / 8.00 rev/s
+PASSO X	X PITCH
+X PITCH · MM PER GIRO	X PITCH · MM/REV
+FINE CORSA X MIN	STOP X MIN
+Come gli ingranaggi, ma l'avanzamento sincronizzato è sull'asse X.	Like gearbox, but the synchronized feed is on the X axis.
+X-INGRANAGGI · F12 · passo 1.000 mm	X-GEARS · F12 · pitch 1.000 mm
+RIDUZIONE SINISTRA	LEFT REDUCTION
+LEFT REDUCTION · MM/PASSATA	LEFT REDUCTION · MM/PASS
+AVANZAMENTO	FEED
+AVANTI	FWD
+FINECORSA Z	Z STOP
+Scanalature multiple con accorciamento progressivo del taglio sinistro.	Multiple grooves with progressive shortening of the left side.
+SCANALATURA · F13 · 4 passate	GROOVING · F13 · 4 passes
+Programmi salvati nella memoria del controller	Programs saved in the controller memory
+FILE SALVATI · 4	SAVED FILES · 4
+DETTAGLI	DETAILS
+Dimensione	Size
+Righe	Lines
+Modificato	Modified
+ESEGUI	RUN
+ELIMINA	DELETE
+RICARICA ELENCO	RELOAD LIST
+4 programmi · 1.2 MB liberi	4 programs · 1.2 MB free
+IMPOSTAZIONI	SETTINGS
+Parametri macchina e configurazione	Machine parameters and configuration
+PASSI ASSI	AXIS STEPS
+Passi per giro, inversione, diametro	Steps per rev, invert, diameter
+LIMITI E FINECORSA	LIMITS AND STOPS
+Quote MAX e MIN degli assi	Axis MAX and MIN limits
+VELOCITÀ E RAMPE	SPEED AND RAMPS
+Accelerazione e velocità massime	Acceleration and max speed
+UNITÀ E FORMATO	UNITS AND FORMAT
+Millimetri, pollici, decimali	Millimeters, inches, decimals
+LINGUA E DISPLAY	LANGUAGE AND DISPLAY
+Italiano, luminosità, contrasto	English, brightness, contrast
+RIPRISTINA	RESTORE
+Valori di fabbrica del controller	Controller factory values
+Le modifiche si applicano al riavvio	Changes apply after restart
+Connessione di rete del controller	Controller network connection
+RETE	NETWORK
+NOME RETE (SSID)	NETWORK NAME (SSID)
+tocca per modificare	tap to edit
+PASSWORD	PASSWORD
+CONNETTI	CONNECT
+DIMENTICA	FORGET
+CONNESSO	CONNECTED
+Indirizzo IP	IP address
+Spegni il controller prima di cambiare rete	Turn off the controller before changing network
+INFO / STATO	INFO / STATUS
+Diagnostica del controller	Controller diagnostics
+FIRMWARE	FIRMWARE
+DISPLAY TFT	TFT DISPLAY
+TEMPO ACCESO	UPTIME
+MEMORIA LIBERA	FREE MEMORY
+ERRORI	ERRORS
+nessuno	none
+MODIFICA VALORE	EDIT VALUE
+Tastierino numerico	Numeric keypad
+DIGITAZIONE	ENTRY
+Inserisci il valore e premi OK · ← cancella	Enter the value and press OK · ← clears
+INGRANAGGI	GEARBOX
+FILETTATURA	THREADING
+TORNITURA	TURNING
+SPIANATURA	FACING
+CONO	CONE
+TRONCATURA	PARTING
+ELLISSE	ELLIPSE
+ASINCRONO	ASYNC
+ASSE Y	Y AXIS
+JOYSTICK	JOYSTICK
+X-INGRANAGGI	X-GEARS
+SCANALATURA	GROOVING
+COMANDO	JOG
+SETUP	SETUP
+INFO	INFO
+mm	mm
+INDIRIZZO IP	IP ADDRESS
+Stato	Status
+FEED · MM PER GIRO	FEED · MM/REV
+JOG NORMAL · GIRI/S	JOG NORMAL · REV/S
+JOG RAPID · GIRI/S	JOG RAPID · REV/S
+DX → SX	R → L
+MB	MB
+12.4 KB	12.4 KB
+8.1 KB	8.1 KB
+5.7 KB	5.7 KB
+3.2 KB	3.2 KB
+NanoEls H5 - LAVORAZIONE TFT 800x480	NanoEls H5 - MACHINING TFT 800x480
+LAVORAZIONE	MACHINING
+quote assi e dati della passata	axis coordinates and pass data
+‹ MENU	‹ MENU
+Passo	Pitch
+mm/giro	mm/rev
+Principi	Starts
+Passate	Passes
+Senso	Direction
+Tipo	Type
+ASSE X	X AXIS
+ASSE Y	Y AXIS
+ASSE Z	Z AXIS
+ZERO	ZERO
+Giri	Revs
+Giri/min	RPM
+Angolo °	ANGLE DEG
+Passata	Pass
+AVVIA	START
+SX	L

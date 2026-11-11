@@ -1,0 +1,185 @@
+# C++ display strings outside the embedded web UI: IT -> EN.
+# Web UI, web log, validation messages and keyboard labels.
+# Fragments keep their leading/trailing spaces: the code concatenates them.
+
+# --- Keyboard bindings (web keyboard page) ---
+Sinistra	Left
+Destra	Right
+Su	Up
+Giù	Down
+Y avanti	Y forward
+Y indietro	Y back
+Meno	Minus
+Più	Plus
+On / avvia	On / start
+Off / stop	Off / stop
+Imposta fermo Z sx	Set Z stop left
+Imposta fermo Z dx	Set Z stop right
+Imposta fermo X avanti	Set X stop forward
+Imposta fermo X dietro	Set X stop back
+Imposta fermo Y avanti	Set Y stop forward
+Imposta fermo Y dietro	Set Y stop back
+Avvii multipli	Multi-start
+Info display	Display info
+Incremento	Increment
+Unità di misura	Units
+Inverti passo	Invert pitch
+Imposta diametro	Set diameter
+Cifra 0	Digit 0
+Cifra 1	Digit 1
+Cifra 2	Digit 2
+Cifra 3	Digit 3
+Cifra 4	Digit 4
+Cifra 5	Digit 5
+Cifra 6	Digit 6
+Cifra 7	Digit 7
+Cifra 8	Digit 8
+Cifra 9	Digit 9
+Cancella	Clear
+Menu modalità	Mode menu
+Modalità ingranaggi	Gearbox mode
+Modalità X ingranaggi	X-gears mode
+Modalità joystick	Joystick mode
+Modalità tornitura	Turning mode
+Modalità spianatura	Facing mode
+Modalità cono	Cone mode
+Modalità troncatura	Parting mode
+Modalità scanalatura	Grooving mode
+Modalità filettatura	Threading mode
+Modalità ellisse	Ellipse mode
+Modalità GCode	G-code mode
+Modalità asincrona	Async mode
+Modalità Y	Y axis mode
+Azzera X	Zero X
+Azzera Z	Zero Z
+Azzera Y	Zero Y
+Abilita X	Enable X
+Abilita Z	Enable Z
+Abilita Y	Enable Y
+Non mappato	Not mapped
+
+# --- Server responses ---
+Acquisizione tasti avviata	Key capture started
+Acquisizione tasti fermata	Key capture stopped
+Configurazione WiFi ripristinata. Riavvio del controller...	WiFi configuration restored. Restarting the controller...
+Configurazione WiFi salvata. Riavvio del controller...	WiFi configuration saved. Restarting the controller...
+Configurazione macchina ripristinata. Riavvio del controller...	Machine configuration restored. Restarting the controller...
+Configurazione macchina salvata. Riavvio del controller...	Machine configuration saved. Restarting the controller...
+Configurazione tastiera ripristinata	Keyboard configuration restored
+Configurazione tastiera salvata	Keyboard configuration saved
+File G-code non trovato	G-code file not found
+G-code rimosso correttamente	G-code removed
+G-code salvato correttamente	G-code saved
+Parametri mancanti	Missing parameters
+Parametro mancante: name	Missing parameter: name
+Riavvio del controller...	Restarting the controller...
+Richiesta non autorizzata	Unauthorized request
+Rimozione G-code non riuscita	Could not remove G-code
+Salvataggio G-code non riuscito	Could not save G-code
+Nome G-code non valido: 2-32 caratteri tra lettere, numeri, punto, trattino e underscore	Invalid G-code name: 2-32 characters from letters, digits, dot, hyphen and underscore
+Spegni il controller e attendi la fine degli upload prima di apprendere i tasti	Turn off the controller and wait for uploads to finish before learning keys
+Spegni il controller e attendi la fine degli upload prima di modificare la configurazione WiFi	Turn off the controller and wait for uploads to finish before changing the WiFi configuration
+Spegni il controller e attendi la fine degli upload prima di modificare la configurazione macchina	Turn off the controller and wait for uploads to finish before changing the machine configuration
+Spegni il controller e attendi la fine degli upload prima di modificare la configurazione tastiera	Turn off the controller and wait for uploads to finish before changing the keyboard configuration
+Spegni il controller e attendi la fine degli upload prima di riavviare	Turn off the controller and wait for uploads to finish before restarting
+Spegni il controller e attendi la fine degli upload prima di ripristinare la configurazione WiFi	Turn off the controller and wait for uploads to finish before restoring the WiFi configuration
+Spegni il controller e attendi la fine degli upload prima di ripristinare la configurazione macchina	Turn off the controller and wait for uploads to finish before restoring the machine configuration
+Spegni il controller e attendi la fine degli upload prima di ripristinare la configurazione tastiera	Turn off the controller and wait for uploads to finish before restoring the keyboard configuration
+
+# --- Configuration validation (fragments keep their spaces) ---
+Valore di configurazione mancante: 	Missing configuration value: 
+Valore WiFi mancante: wifiPassword	Missing WiFi value: wifiPassword
+Valore WiFi mancante: wifiSsid	Missing WiFi value: wifiSsid
+Valore tastiera mancante: 	Missing keyboard value: 
+ deve essere compreso tra 	 must be between 
+ e 	 and 
+ deve essere 0 o 1	 must be 0 or 1
+ deve usare un codice tasto 1..255	 must use key code 1..255
+ non può usare il codice riservato 170	 cannot use reserved code 170
+Il codice tasto 	Key code 
+ è assegnato sia a 	 is assigned to both 
+ sia a 	 and 
+zSpeedStart deve essere minore o uguale a zSpeedManualMove	zSpeedStart must be less than or equal to zSpeedManualMove
+xSpeedStart deve essere minore o uguale a xSpeedManualMove	xSpeedStart must be less than or equal to xSpeedManualMove
+ySpeedStart deve essere minore o uguale a ySpeedManualMove	ySpeedStart must be less than or equal to ySpeedManualMove
+joystickDeadband deve essere minore di joystickAdcMax	joystickDeadband must be less than joystickAdcMax
+almeno un asse joystick deve essere abilitato quando joystickEnabled è attivo	at least one joystick axis must be enabled when joystickEnabled is on
+wifiSsid deve essere lungo al massimo 32 caratteri	wifiSsid must be at most 32 characters
+wifiPassword deve essere lunga al massimo 63 caratteri	wifiPassword must be at most 63 characters
+wifiPassword deve essere vuota o di almeno 8 caratteri	wifiPassword must be empty or at least 8 characters
+
+# --- WebSocket action validation ---
+codice azione web deve essere 1..255	web action code must be 1..255
+codice azione web mancante	missing web action code
+codice azione web sconosciuto 	unknown web action code 
+stato azione web mancante	missing web action state
+stato azione web sconosciuto 	unknown web action state 
+formato atteso @azione:stato	expected format @action:state
+
+# --- WiFi status (web WiFi page and status message) ---
+Senza WiFi	No WiFi
+Nessun SSID	No SSID
+WiFi fallito	WiFi failed
+WiFi perso	WiFi lost
+WiFi scollegato	WiFi disconnected
+Errore WiFi	WiFi error
+AP WiFi fallito	WiFi AP failed
+Connessione	Connecting
+Setup 	Setup 
+
+# --- TFT / firmware update log (web Updates page) ---
+Upload TFT avviato	TFT upload started
+Upload TFT completato	TFT upload complete
+Upload firmware avviato	Firmware upload started
+Upload firmware completato. Riavvio del controller...	Firmware upload complete. Restarting the controller...
+upload avviato, dimensione=	upload started, size=
+ byte, baud display=	 bytes, display baud=
+connessione al baud selezionato 	connecting at the selected baud 
+display connesso a 	display connected at 
+display pronto, invio a 	display ready, sending to 
+selezionato 	selected 
+selezionato upload diretto	direct upload selected
+selezionato upload diretto, baud=	direct upload selected, baud=
+avanzamento 	progress 
+upload completato, attesa reset display	upload complete, waiting for display reset
+upload completato, riavvio del controller	upload complete, restarting the controller
+riavvio in corso	restarting
+pacchetto	packet
+reset display	display reset
+: timeout connessione	: connection timeout
+: timeout in attesa di ACK dal display	: timeout waiting for ACK from the display
+. Alimenta H5 dalla porta POWER, non da USB, e riprova	. Power the H5 from the POWER port, not USB, and try again
+errore: attendi la fine dell'upload TFT prima di aggiornare il firmware	error: wait for the TFT upload to finish before updating the firmware
+errore: baud Nextion non supportato 	error: Nextion baud not supported 
+errore: dimensione upload TFT non corrispondente	error: TFT upload size mismatch
+errore: file TFT vuoto	error: empty TFT file
+errore: il display Nextion non ha accettato l'upload TFT	error: the Nextion display did not accept the TFT upload
+errore: il display Nextion non ha confermato i dati TFT	error: the Nextion display did not confirm the TFT data
+errore: il display Nextion non risponde al baud selezionato 	error: the Nextion display does not answer at the selected baud 
+errore: spegni il controller prima dell'upload TFT	error: turn off the controller before the TFT upload
+errore: upload TFT interrotto	error: TFT upload interrupted
+errore: dimensione upload firmware non corrispondente	error: firmware upload size mismatch
+errore: file firmware vuoto	error: empty firmware file
+errore: impossibile avviare l'aggiornamento firmware: 	error: cannot start the firmware update: 
+errore: aggiornamento firmware non riuscito: 	error: firmware update failed: 
+errore: richiesta non autorizzata	error: unauthorized request
+errore: scrittura firmware non riuscita: 	error: firmware write failed: 
+errore: si possono caricare solo file .tft	error: only .tft files can be uploaded
+errore: si possono caricare solo file firmware .bin	error: only .bin firmware files can be uploaded
+errore: spegni il controller prima dell'upload firmware	error: turn off the controller before the firmware upload
+errore: upload firmware interrotto	error: firmware upload interrupted
+
+# --- WebSocket log lines and joystick warning ---
+WEBUI.error=coda eventi piena\n	WEBUI.error=event queue full\n
+WEBUI.warning=movimento rilasciato dopo perdita del segnale\n	WEBUI.warning=movement released after signal loss\n
+oltre zona morta	beyond deadband
+
+# --- Emergency stop reasons (web message; stripped from the TFT footer) ---
+Arresto di emergenza	Emergency stop
+Impossibile ON/OFF	Cannot ON/OFF
+Impossibile segnare origine	Cannot mark origin
+Posizione fuori macchina	Position outside machine
+Spento in manuale	Switched off in manual
+
+# --- Units shared by web and TFT ---
+POL	IN

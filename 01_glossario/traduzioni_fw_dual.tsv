@@ -1,0 +1,58 @@
+# Display strings shared by the web UI and the TFT: IT -> EN.
+# In the English edition both surfaces use the same text, so no per-surface
+# wrapper is needed: the generator translates these literals once.
+# Keys keep their leading/trailing spaces: the code concatenates them.
+
+# --- printMode() ---
+INGR.	GEAR
+X-ING	XGEAR
+ASINC.	ASYNC
+CONO	CONE
+TORN.	TURN
+SPIAN.	FACE
+TRONC.	PART
+SCAN.	SLOT
+FILETT.	THREAD
+ELLIS.	ELLIPSE
+ASSE Y	Y AXIS
+JOY	JOY
+
+# --- joystickLatheDirectionText() ---
+Carro sx	Carriage L
+Carro dx	Carriage R
+Trasv. dentro	Cross in
+Trasv. fuori	Cross out
+
+# --- buildDisplayMessage() ---
+Passo +	Pitch +
+Passo -	Pitch -
+Nessun programma	No program
+Programma eliminato	Program deleted
+Accendi il mandrino!	Spindle ON!
+Mandrino ON. Vai?	Spindle ON. Go?
+Imposta finecorsa	Set stops
+Imposta finecorsa X	Set X stop
+Da destra a sinistra?	Right to left?
+Da sinistra a destra?	Left to right?
+Passo > 0, esterno	Pitch > 0, outside
+Passo < 0, interno	Pitch < 0, inside
+Esterno?	Outside?
+Interno?	Inside?
+Rapporto cono 	Cone ratio 
+Vai	Go
+Vai?	Go?
+Imposta passo	Set pitch
+Passata 	Pass 
+ passata?	 pass?
+ passate?	 passes?
+ di 	 of 
+Usa 	Use 
+Rapporto 	Ratio 
+Joystick disattivato	Joystick off
+Joystick non collegato	Joystick not connected
+Rapido 	Rapid 
+Sincro 	Sync 
+Avanzamento off	Feed off
+Avanzamento 	Feed 
+Avanzamento fermo	Feed stopped
+Diametro 	Diameter 

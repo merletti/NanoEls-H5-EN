@@ -1,0 +1,170 @@
+Encoder mandrino	Spindle encoder
+Asse Z	Z axis
+Asse X	X axis
+Movimento manuale	Manual movement
+Modalità automatiche	Automatic modes
+Cono	Cone
+Asse Y	Y axis
+Joystick	Joystick
+Movimento	Movement
+Operazione	Operation
+Fermi e assi	Stops and axes
+Inserimento numeri	Number entry
+Modalità	Modes
+PPR encoder	Encoder PPR
+Gioco encoder	Encoder backlash
+Passo vite madre	Leadscrew pitch
+Passi motore per giro	Motor steps per rev
+PPR volantino	Handwheel PPR
+Velocità iniziale	Start speed
+Accelerazione	Acceleration
+Velocità manuale	Manual speed
+Corsa massima	Max travel
+Gioco	Backlash
+Inverti direzione	Invert direction
+Inverti abilitazione	Invert enable
+Riposo motore	Motor idle
+Tempo passo	Step time
+Ritardo passo	Step delay
+Abilita movimenti continui	Continuous moves
+Gioco volantino	Handwheel backlash
+Distanza di arretramento	Retract distance
+Riduzione sinistra scanalatura	Left reduction (grooving)
+Diametro grande	Large diameter
+Diametro piccolo	Small diameter
+Asse Y collegato	Y axis connected
+Asse rotativo	Rotary axis
+Corsa per giro vite	Travel per screw turn
+Joystick attivo	Joystick on
+Ingresso Z attivo	Z input on
+Ingresso X attivo	X input on
+Ingresso Y attivo	Y input on
+Pulsante attiva/disattiva	Toggle button
+Campioni centro	Center samples
+Sovracampionamento	ADC oversampling
+Intervallo campioni	Sample interval
+ADC massimo	Max ADC
+Zona morta	Deadband
+Limite coda impulsi	Pulse queue limit
+Velocità normale	Normal speed
+Velocità rapida	Rapid speed
+Inverti Z	Invert Z
+Inverti X	Invert X
+Inverti Y	Invert Y
+Inverti pulsante	Invert button
+Sinistra	Left
+Destra	Right
+Su	Up
+Giù	Down
+Y avanti	Y forward
+Y indietro	Y back
+On / avvia	On / start
+Off / stop	Off / stop
+Più	Plus
+Meno	Minus
+Incremento	Increment
+Inverti passo	Invert pitch
+Unità di misura	Units
+Info display	Display info
+Avvii multipli	Multi-start
+Imposta fermo Z sx	Set Z stop left
+Imposta fermo Z dx	Set Z stop right
+Imposta fermo X avanti	Set X stop forward
+Imposta fermo X dietro	Set X stop back
+Imposta fermo Y avanti	Set Y stop forward
+Imposta fermo Y dietro	Set Y stop back
+Azzera X	Zero X
+Azzera Z	Zero Z
+Azzera Y	Zero Y
+Imposta diametro	Set diameter
+Abilita X	Enable X
+Abilita Z	Enable Z
+Abilita Y	Enable Y
+Cifra 0	Digit 0
+Cifra 1	Digit 1
+Cifra 2	Digit 2
+Cifra 3	Digit 3
+Cifra 4	Digit 4
+Cifra 5	Digit 5
+Cifra 6	Digit 6
+Cifra 7	Digit 7
+Cifra 8	Digit 8
+Cifra 9	Digit 9
+Cancella	Clear
+Menu modalità	Mode menu
+Modalità ingranaggi	Gearbox mode
+Modalità X-ingranaggi	X-gears mode
+Modalità joystick	Joystick mode
+Modalità tornitura	Turning mode
+Modalità spianatura	Facing mode
+Modalità cono	Cone mode
+Modalità troncatura	Parting mode
+Modalità scanalatura	Grooving mode
+Modalità filettatura	Threading mode
+Modalità ellisse	Ellipse mode
+Modalità GCode	G-code mode
+Modalità asincrona	Async mode
+Modalità asse Y	Y axis mode
+sinistro	left
+destro	right
+avanti	forward
+dietro	back
+Impulsi per giro del mandrino secondo la specifica dell'encoder, prima del conteggio in quadratura. Valori comuni: 600 o 1200.	Spindle pulses per rev according to the encoder spec, before quadrature counting. Common values: 600 or 1200.
+Impulsi encoder ignorati dopo l'inversione del mandrino. Aumentare solo se l'angolo mostrato oscilla dopo l'inversione.	Encoder pulses ignored after spindle reversal. Increase only if the displayed angle oscillates after reversal.
+Distanza percorsa da Z per un giro della vite. Vite metrica: usare il passo indicato. Vite in pollici: 25,4 / TPI, quindi 8 TPI = 3,175.	Distance traveled by Z in one screw turn. Metric screw: use the stated pitch. Inch screw: 25.4 / TPI, so 8 TPI = 3.175.
+Passi interi motore * microstep driver * rapporto motore/vite. Esempio: motore da 200 passi con microstep 4x = 800.	Whole motor steps * driver microstep * motor/screw ratio. Example: 200-step motor with 4x microstep = 800.
+Impulsi fisici per giro dell'encoder opzionale del volantino Z. Usare la specifica del volantino.	Physical pulses per rev of the optional Z handwheel encoder. Use the handwheel spec.
+Frequenza iniziale dei passi all'avvio del movimento. Usare un valore da cui il motore parte in modo affidabile senza perdere passi.	Initial step frequency when movement starts. Use a value at which the motor starts reliably without losing steps.
+Ramp di accelerazione e decelerazione. Più alto è più reattivo ma può perdere passi se il motore o il carico non seguono.	Acceleration and deceleration ramp. Higher is more responsive but can lose steps if the motor or load cannot follow.
+Velocità massima per jog, ritorni rapidi e movimenti GCode su Z. La velocità dipende anche dai passi per mm.	Max speed for jog, rapid returns and G-code moves on Z. The speed also depends on steps per mm.
+Massimo movimento Z singolo consentito. Impostare poco sopra la corsa fisica sicura del carro.	Max single Z move allowed. Set slightly above the safe physical carriage travel.
+Movimento Z perso all'inversione. Misurare con comparatore: muovere in un verso, azzerare, invertire finché l'indice non si muove.	Z movement lost on reversal. Measure with a dial indicator: move one way, zero, reverse until the needle moves.
+Attivare se l'asse Z si muove nel verso opposto a schermo o tastiera.	Enable if the Z axis moves opposite to the screen or keyboard direction.
+Attivare solo se l'ingresso enable del driver lavora al contrario.	Enable only if the driver enable input is active low.
+Attivare se il driver deve essere alimentato solo durante il movimento. Lasciare disattivo se Z deve mantenere la posizione da fermo.	Enable if the driver should be powered only during movement. Leave off if Z must hold position at rest.
+Distanza percorsa da X per un giro della vite. Vite metrica: usare il passo indicato. Vite in pollici: 25,4 / TPI, quindi 10 TPI = 2,54.	Distance traveled by X in one screw turn. Metric screw: use the stated pitch. Inch screw: 25.4 / TPI, so 10 TPI = 2.54.
+Impulsi fisici per giro dell'encoder opzionale del volantino X. Usare la specifica del volantino.	Physical pulses per rev of the optional X handwheel encoder. Use the handwheel spec.
+Ramp di accelerazione e decelerazione. Più alto è più reattivo ma può perdere passi se il motore o la slitta non seguono.	Acceleration and deceleration ramp. Higher is more responsive but can lose steps if the motor or cross slide cannot follow.
+Velocità massima per jog, ritorni rapidi e movimenti GCode su X. La velocità dipende anche dai passi per mm.	Max speed for jog, rapid returns and G-code moves on X. The speed also depends on steps per mm.
+Massimo movimento X singolo consentito. Impostare poco sopra la corsa fisica sicura della slitta trasversale.	Max single X move allowed. Set slightly above the safe physical cross slide travel.
+Movimento X perso all'inversione. Misurare con comparatore: muovere in un verso, azzerare, invertire finché l'indice non si muove.	X movement lost on reversal. Measure with a dial indicator: move one way, zero, reverse until the needle moves.
+Attivare se l'asse X si muove nel verso opposto a schermo o tastiera.	Enable if the X axis moves opposite to the screen or keyboard direction.
+Attivare se il driver deve essere alimentato solo durante il movimento. Lasciare disattivo se X deve mantenere la posizione da fermo.	Enable if the driver should be powered only during movement. Leave off if X must hold position at rest.
+Tempo obiettivo per un passo di precisione quando l'incremento selezionato non è continuo.	Target time for one precision step when the selected increment is not continuous.
+Pausa tra passi di precisione ripetuti mentre si tiene premuto un pulsante di movimento.	Pause between repeated precision steps while a movement button is held.
+Fa scorrere i pulsanti di movimento in continuo quando l'incremento è 1 mm o 0,1 in.	Makes the movement buttons scroll continuously when the increment is 1 mm or 0.1 in.
+Impulsi del volantino ignorati dopo l'inversione sugli ingressi Z/X/Y. Impostare 0 per encoder diretti senza gioco meccanico.	Handwheel pulses ignored after reversal on the Z/X/Y inputs. Set 0 for direct encoders without mechanical backlash.
+Distanza di cui l'asse ausiliario si allontana dal materiale tra le passate automatiche. Impostare 0 per disattivare l'arretramento extra.	Distance the auxiliary axis moves away from the material between automatic passes. Set 0 to disable the extra retract.
+Accorcia progressivamente il taglio sinistro di ogni scanalatura di questa distanza Z per scanalature cieche. Impostare 0 per passate a tutta lunghezza.	Progressively shortens the left side of each groove by this Z amount for blind grooves. Set 0 for full-length passes.
+Diametro maggiore del pezzo. Con il diametro piccolo e la corsa Z definisce il rapporto del cono.	Larger workpiece diameter. With the small diameter and Z travel it sets the cone ratio.
+Diametro minore del pezzo. Il rapporto mostrato sul display è corsa Z / (diametro grande − diametro piccolo), lo stesso valore delle tabelle dei coni.	Smaller workpiece diameter. The ratio shown on the display is Z travel / (large diameter - small diameter), the same value as in cone tables.
+Attivare solo se l'asse Y opzionale o il divisore è cablato e configurato.	Enable only if the optional Y axis or dividing head is wired and configured.
+Attivo: valori Y in gradi. Disattivo: valori Y come distanza lineare.	On: Y values in degrees. Off: Y values as linear distance.
+Passi interi motore * microstep driver * rapporto motore/asse.	Whole motor steps * driver microstep * motor/axis ratio.
+Impulsi fisici per giro dell'encoder opzionale del volantino Y. Usare la specifica del volantino.	Physical pulses per rev of the optional Y handwheel encoder. Use the handwheel spec.
+Per Y rotativo, gradi per giro della vite senza fine. Per Y lineare, mm per giro della vite madre.	For rotary Y, degrees per worm screw turn. For linear Y, mm per leadscrew turn.
+Frequenza iniziale dei passi all'avvio del movimento Y. Usare un valore da cui il motore parte in modo affidabile.	Initial step frequency when Y movement starts. Use a value at which the motor starts reliably.
+Ramp di accelerazione e decelerazione del movimento Y.	Acceleration and deceleration ramp for Y movement.
+Velocità massima per movimenti Y manuali e GCode.	Max speed for manual Y moves and G-code.
+Massimo movimento Y singolo consentito. Per Y rotativo è in gradi.	Max single Y move allowed. For rotary Y it is in degrees.
+Movimento Y perso all'inversione. Per Y rotativo inserire gradi; per Y lineare inserire mm.	Y movement lost on reversal. For rotary Y enter degrees; for linear Y enter mm.
+Attivare se Y si muove nel verso opposto a quello atteso.	Enable if Y moves opposite to the expected direction.
+Attivare solo se l'ingresso enable del driver Y lavora al contrario.	Enable only if the Y driver enable input is active low.
+Attivare se il driver Y deve essere alimentato solo durante il movimento. Lasciare disattivo se deve mantenere la posizione da fermo.	Enable if the Y driver should be powered only during movement. Leave off if it must hold position at rest.
+Attivare solo dopo aver cablato il joystick analogico opzionale. Gli assi devono fornire ingressi ADC da 3,3 V compatibili con ESP32.	Enable only after wiring the optional analog joystick. The axes must provide 3.3 V ADC inputs compatible with the ESP32.
+Attivare se il joystick ha il potenziometro Z cablato su JZ. Disattivare per joystick senza questo asse.	Enable if the joystick Z potentiometer is wired to JZ. Turn off for a joystick without this axis.
+Attivare se il joystick ha il potenziometro X cablato su JX. Disattivare per joystick senza questo asse.	Enable if the joystick X potentiometer is wired to JX. Turn off for a joystick without this axis.
+Attivare se il joystick ha il potenziometro Y cablato su JY. Disattivare per joystick senza questo asse.	Enable if the joystick Y potentiometer is wired to JY. Turn off for a joystick without this axis.
+In modalità JOY, un clic breve con Z e X in centro attiva/disattiva l'avanzamento. Tenendo premuto con Z o X deflesso si esegue il movimento rapido.	In JOY mode, a short click with Z and X centered turns the feed on/off. Holding with Z or X deflected performs rapid movement.
+Numero di letture ADC mediate all'avvio per apprendere il centro del joystick.	Number of ADC readings averaged at startup to learn the joystick center.
+Letture ADC mediate per ogni aggiornamento del joystick. Valori alti riducono il rumore ma aggiungono ritardo.	ADC readings averaged on each joystick update. High values reduce noise but add lag.
+Tempo tra gli aggiornamenti del joystick. Valori piccoli reagiscono più in fretta e usano più CPU.	Time between joystick updates. Small values react faster and use more CPU.
+Massimo valore ADC grezzo. L'ADC a 12 bit dell'ESP32 normalmente usa 4095.	Max raw ADC value. The ESP32 12-bit ADC normally uses 4095.
+Valori ADC attorno al centro trattati come zero. Aumentare se un asse va alla deriva al rilascio.	ADC values around the center treated as zero. Increase if an axis drifts on release.
+Massimo numero di impulsi virtuali del volantino in coda. Valori alti consentono più movimento bufferizzato.	Max number of virtual handwheel pulses in the queue. High values allow more buffered movement.
+Velocità jog del joystick in giri vite equivalenti al secondo quando il rapido non è premuto.	Joystick jog speed in equivalent screw turns per second when rapid is not pressed.
+Velocità jog del joystick in giri vite equivalenti al secondo mentre il pulsante è premuto.	Joystick jog speed in equivalent screw turns per second while the button is pressed.
+Attivare se la deflessione Z del joystick muove il carro nel verso sbagliato.	Enable if Z joystick deflection moves the carriage the wrong way.
+Attivare se la deflessione X del joystick muove la slitta trasversale nel verso sbagliato.	Enable if X joystick deflection moves the cross slide the wrong way.
+Attivare se la deflessione Y del joystick cambia il valore nel verso sbagliato.	Enable if Y joystick deflection changes the value the wrong way.
+Attivare se il pulsante del joystick risulta premuto quando è rilasciato.	Enable if the joystick button reads pressed when it is released.

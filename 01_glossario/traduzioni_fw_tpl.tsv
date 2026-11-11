@@ -1,0 +1,21 @@
+${} Attendo che il controller torni online.	${} Waiting for the controller to come back online.
+${} aperti	${} open
+${} impostato al codice tasto ${}	${} set to key code ${}
+${} inviato	${} sent
+${} premuto	${} pressed
+, AP di configurazione ${}	, setup AP ${}
+Apprendimento ${}: premi un tasto sulla tastiera fisica	Learning ${}: press a key on the physical keyboard
+Asse ${} ${}	Axis ${} ${}
+Caricamento di ${} a ${} baud. Lascia aperta questa pagina; la scrittura del display può richiedere diversi minuti.	Uploading ${} at ${} baud. Keep this page open; writing the display may take several minutes.
+Caricamento di ${}. Lascia aperta questa pagina; il controller si riavvierà al termine dell'upload.	Uploading ${}. Keep this page open; the controller will restart when the upload finishes.
+Fermo ${} ${} ${}	Stop ${} ${} ${}
+Fermo ${} ${} impostato${}	Stop ${} ${} set${}
+File ${} caricato (${} KB): premi Salva per memorizzarlo.	File ${} loaded (${} KB): press Save to keep it.
+File di backup incompleto: manca ${}	Backup file incomplete: missing ${}
+File pronto: ${}	File ready: ${}
+Impossibile leggere il file ${}	Cannot read file ${}
+Invio firmware al controller ${}%. Attendo l'avanzamento di scrittura dal controller.	Sending firmware to the controller ${}%. Waiting for write progress from the controller.
+Modo: ${}${}${}	Mode: ${}${}${}
+Pitch ${}	Pitch ${}
+Scrittura firmware ${}%	Writing firmware ${}%
+Spazio libero: ${} KB	Free space: ${} KB

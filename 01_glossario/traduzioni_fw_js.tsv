@@ -1,0 +1,104 @@
+Acquisizione tasto non riuscita	Key capture failed
+Acquisizione tasto scaduta	Key capture timed out
+Backup scaricato	Backup downloaded
+Caricamento configurazione WiFi...	Loading WiFi configuration...
+Caricamento configurazione macchina...	Loading machine configuration...
+Caricamento configurazione tastiera...	Loading keyboard configuration...
+Clicca per caricare il G-code	Click to load the G-code
+Clicca per rimuovere il G-code	Click to remove the G-code
+Connesso	Connected
+Connesso al server	Connected to server
+Controller acceso	Controller on
+Controller sincronizzato	Controller synchronized
+Controller spento	Controller off
+Dimenticare la rete WiFi salvata e riavviare l\'AP di configurazione?	Forget the saved WiFi network and restart the setup AP?
+Disconnesso	Disconnected
+Disconnesso dal server	Disconnected from server
+Esci	Exit
+Esci da schermo intero	Exit full screen
+Esegui	Run
+FW: avanzamento 	FW: progress 
+FW: errore:	FW: error:
+FW: upload completato, riavvio del controller	FW: upload complete, restarting the controller
+Fermi	Stops
+File di backup non valido	Invalid backup file
+Impara	Learn
+Impossibile caricare la configurazione WiFi	Cannot load the WiFi configuration
+Impossibile caricare la configurazione macchina	Cannot load the machine configuration
+Impossibile caricare la configurazione tastiera	Cannot load the keyboard configuration
+Impossibile leggere il file	Cannot read the file
+Impossibile ripristinare la configurazione WiFi	Cannot restore the WiFi configuration
+Impossibile ripristinare la configurazione macchina	Cannot restore the machine configuration
+Impossibile ripristinare la configurazione tastiera	Cannot restore the keyboard configuration
+Impossibile salvare la configurazione WiFi	Cannot save the WiFi configuration
+Impossibile salvare la configurazione macchina	Cannot save the machine configuration
+Impossibile salvare la configurazione tastiera	Cannot save the keyboard configuration
+Impossibile scaricare la configurazione	Cannot download the configuration
+Impostazioni accessibilità salvate su questo browser	Accessibility settings saved in this browser
+Intero	Full screen
+Inviato: 	Sent: 
+Jog X avanti	Jog X forward
+Jog X indietro	Jog X back
+Jog Y avanti	Jog Y forward
+Jog Y indietro	Jog Y back
+Jog Z destra	Jog Z right
+Jog Z sinistra	Jog Z left
+Lascia invariata	Leave unchanged
+Lettura vocale attivata	Voice reading on
+Lettura vocale non supportata da questo browser	Voice reading not supported by this browser
+Modalità G code	G-code mode
+Modalità X ingranaggi	X-gears mode
+Nessun G-code salvato	No saved G-code
+Password	Password
+Preparazione del backup...	Preparing the backup...
+Prova lettura vocale	Test voice reading
+Prova vocale inviata	Voice test sent
+Riavviare il controller? La pagina si ricarica da sola quando torna disponibile.	Restart the controller? The page reloads by itself when it comes back.
+Riavvio in corso...	Restarting...
+Riavvio inviato, attendere la riconnessione	Restart sent, wait for reconnection
+Ricevuto: 	Received: 
+Ripristinare la configurazione macchina ai valori di fabbrica e riavviare il controller?	Restore the machine configuration to factory values and restart the controller?
+Ripristinare la configurazione macchina dal file e riavviare il controller?	Restore the machine configuration from the file and restart the controller?
+Ripristinare la mappatura tastiera ai valori di fabbrica?	Reset the keyboard mapping to factory values?
+Ripristino configurazione WiFi...	Restoring WiFi configuration...
+Ripristino configurazione macchina...	Restoring machine configuration...
+Ripristino configurazione tastiera...	Restoring keyboard configuration...
+Salvataggio configurazione WiFi...	Saving WiFi configuration...
+Salvataggio configurazione macchina...	Saving machine configuration...
+Salvataggio configurazione tastiera...	Saving keyboard configuration...
+Schermo intero	Full screen
+Seleziona un file firmware .bin compilato	Select a compiled .bin firmware file
+Seleziona un file firmware bin compilato	Select a compiled bin firmware file
+Tastierino	Keypad
+Unità	Units
+Upload TFT non riuscito	TFT upload failed
+Upload firmware completato. Riavvio del controller...	Firmware upload complete. Restarting the controller...
+Upload firmware non riuscito	Firmware upload failed
+abilitato	enabled
+aggiunto	added
+ al valore inserito	 to the entered value
+avanti	forward
+campioni	samples
+destro	right
+dietro	back
+disabilitato	disabled
+formato	format
+giri/s	rev/s
+impulsi	pulses
+impulsi/giro	pulses/rev
+mm	mm
+mm o gradi	mm or deg
+mm o gradi/giro	mm or deg/rev
+mm/giro	mm/rev
+mm/passata	mm/pass
+passi/giro	steps/rev
+passi/s	steps/s
+passi/s^2	steps/s^2
+premuto	pressed
+rilasciato	released
+rimosso	removed
+sconosciuto	unknown
+$1 meno 	$1 minus 
+sinistro	left
+ a 	 to 
+valori	values

@@ -1,0 +1,148 @@
+ASINC.	ASYNC
+ASSE Y	Y AXIS
+Abilita X	Enable X
+Abilita Y	Enable Y
+Abilita Z	Enable Z
+Accessibilità (7)	Accessibility (7)
+Aggiorna TFT Nextion	Update Nextion TFT
+Aggiorna firmware ESP32	Update ESP32 firmware
+Aggiornamenti	Updates
+Aggiungi GCode	Add G-code
+Angolo	Angle
+Annuncia avvisi ed errori	Announce warnings and errors
+Annuncia cambi di stato	Announce state changes
+Annuncia pressione pulsanti	Announce button presses
+Annuncia variazione posizione assi	Announce axis position changes
+Apri lathecode in italiano	Open lathecode in English
+Attiva la rete, imposta nome e password o dimentica la connessione.	Turn on the network, set name and password, or forget the connection.
+Avvii	Starts
+Azzera X	Zero X
+Azzera Y	Zero Y
+Azzera Z	Zero Z
+Backup configurazione	Configuration backup
+CONO	CONE
+Cancella	Clear
+Cancella password salvata	Clear saved password
+Carica il firmware ESP32 o aggiorna il display Nextion.	Upload the ESP32 firmware or update the Nextion display.
+Comandi websocket supportati	Supported websocket commands
+Comando	Jog
+Diametro	Diameter
+Dimentica rete	Forget network
+ELLIS.	ELLIPSE
+Esegui	Run
+FILETTATURA	THREADING
+Fermo X avanti	X stop forward
+Fermo X dietro	X stop back
+Fermo Y avanti	Y stop forward
+Fermo Y dietro	Y stop back
+Fermo Z dx	Z stop right
+Fermo Z sx	Z stop left
+File salvati in memoria, creazione e invio di nuovi programmi.	Files in memory, creating and sending new programs.
+Finecorsa	Stops
+Finecorsa e assi	Stops and axes
+GCode	G-code
+GCode salvati	Saved G-code
+Giri	Revs
+INGR.	GEAR
+Impostazioni	Settings
+Incr.	Incr.
+Incremento	Increment
+Info	Info
+Interfaccia	Interface
+Intero	Full screen
+Inverti	Invert
+Invia	Send
+JOY	JOY
+Jog X/Z, ON e OFF, modalità di lavoro, tastierino e finecorsa.	Jog X/Z, ON and OFF, work modes, keypad and stops.
+Log in tempo reale, comandi manuali e comandi websocket.	Real-time log, manual commands and websocket commands.
+Mappatura dei tasti fisici e tasti premuti a schermo.	Physical key mapping and on-screen key presses.
+Meno	Minus
+Menu	Menu
+Messaggio	Message
+Modalità	Mode
+Modo	Mode
+Mostra tasti premuti sullo schermo	Show pressed keys on screen
+. Solo rete locale fidata. Spegni il controller prima di aggiornamenti o modifiche alle impostazioni.	. Trusted local network only. Turn off the controller before updates or settings changes.
+Nome rete	Network name
+OFF	OFF
+ON	ON
+Operazione	Operation
+Parametri macchina e configurazione generale del controller.	Machine parameters and general controller configuration.
+Passo	Pitch
+Password	Password
+Più	Plus
+Primo caricamento / display di fabbrica (9600 baud)	First upload / factory display (9600 baud)
+Prova voce	Test voice
+Registro	Log
+Riavvia controller	Restart controller
+Riavvia la scheda senza togliere alimentazione. Richiede ELS spento e nessun aggiornamento in corso.	Restart the board without cutting power. Requires ELS off and no update in progress.
+Riavvio controller	Controller restart
+Rimuovi commenti prima di salvare	Remove comments before saving
+Ripristina da file	Restore from file
+Ripristina default	Restore defaults
+Ripristina tastiera	Reset keyboard
+SCAN.	SLOT
+SPIAN.	FACE
+Salva	Save
+Salva e riavvia	Save and restart
+Salva su file i parametri macchina per ripristinarli dopo una modifica o su una seconda macchina. La password WiFi non è inclusa.	Save the machine parameters to a file to restore them after a change or on a second machine. The WiFi password is not included.
+Salva tastiera	Save keyboard
+Scarica backup	Download backup
+Scegli file	Choose file
+Scegli una funzione per aprire la pagina dedicata.	Choose a function to open its page.
+Senza un file pronto, genera il GCode con lathecode: il pulsante apre l'editor tradotto in italiano.	Without a ready file, generate the G-code with lathecode: the button opens the editor translated into English.
+Sfoglia	Browse
+Sfoglia file .gcode	Browse .gcode files
+Silenzio durante jog	Mute during jog
+Stato	Status
+TORN.	TURN
+TRONC.	PART
+Tastiera	Keyboard
+Tastierino	Keypad
+Tieni aperta questa pagina finché l'aggiornamento non termina.	Keep this page open until the update finishes.
+Ultimo codice tasto fisico:	Last physical key code:
+Unità	Units
+Velocità voce	Voice speed
+Voce	Voice
+Voce, annunci di accessibilità e velocità di lettura.	Voice, accessibility announcements and reading speed.
+WiFi attivo	WiFi on
+X-ING	XGEAR
+accende il controller	turns the controller on
+invia il codice tasto 20 come se fosse premuto sulla tastiera	sends key code 20 as if pressed on the keyboard
+lo rilascia senza rimappatura tastiera	releases it without keyboard remapping
+nessuno	none
+preme il codice azione diretto 21;	presses direct action code 21;
+richiede lo stato del controller	requests the controller status
+rimuove tutti i GCode	removes all G-code
+spegne il controller	turns the controller off
+Apri modalità	Open modes
+Azzera giri e angolo	Zero revs and angle
+Cambia incremento	Change increment
+Cambia unità	Change units
+Gruppi di comando	Command groups
+Inverti passo	Invert pitch
+Jog X avanti	Jog X forward
+Jog X indietro	Jog X back
+Jog Y avanti	Jog Y forward
+Jog Y indietro	Jog Y back
+Jog Z destra	Jog Z right
+Jog Z sinistra	Jog Z left
+Mostra o nascondi dettagli controller	Show or hide controller details
+Navigazione pagina	Page navigation
+Schermo intero	Full screen
+Spegni controller	Turn controller off
+Stato controller	Controller status
+Torna al menu principale	Back to main menu
+Stop	Stop
+Contenuto GCode	G-code content
+Inserisci comando	Enter command
+Lascia invariata	Leave unchanged
+Nome GCode	G-code name
+Apre lathecode tradotto in italiano con Google Translate	Opens lathecode translated into English with Google Translate
+X avanti	X forward
+X indietro	X back
+Y avanti	Y forward
+Y dietro	Y back
+Y indietro	Y back
+Z destra	Z right
+Z sinistra	Z left
